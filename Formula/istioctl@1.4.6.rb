@@ -1,4 +1,4 @@
-class IstioctlAT146 < Formula
+class Istioctl < Formula
   desc "Istio configuration command-line utility"
   homepage "https://github.com/istio/istio"
   url "https://github.com/istio/istio.git",
@@ -7,9 +7,9 @@ class IstioctlAT146 < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "2c5891ecf6ac25f93829cf6d9923d2a4be6c2b4e6e40ce41160e3358d352cbf7" => :catalina
-    sha256 "2c5891ecf6ac25f93829cf6d9923d2a4be6c2b4e6e40ce41160e3358d352cbf7" => :mojave
-    sha256 "2c5891ecf6ac25f93829cf6d9923d2a4be6c2b4e6e40ce41160e3358d352cbf7" => :high_sierra
+    sha256 "f18cedfa9df54a0bd504fc44e8725e408b477e606c5f6a0862f2188e824c41bc" => :catalina
+    sha256 "f18cedfa9df54a0bd504fc44e8725e408b477e606c5f6a0862f2188e824c41bc" => :mojave
+    sha256 "f18cedfa9df54a0bd504fc44e8725e408b477e606c5f6a0862f2188e824c41bc" => :high_sierra
   end
 
   depends_on "go" => :build
